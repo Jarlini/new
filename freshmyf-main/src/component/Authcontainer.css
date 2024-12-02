@@ -1,14 +1,5 @@
-/* body {
-  font-family: 'Arial', sans-serif;
- /* Very light orange background */
-/* display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-   margin: 0;} */
-*/
 
-/* Sign In/Sign Up Container */
+
 .sign-in-container {
   display: flex;
   justify-content: center;
@@ -16,22 +7,22 @@
   height: 600px;
 }
 
-/* Wrapper for Form and Image */
+
 .sign-in-wrapper {
   display: flex;
   width: 120%;
   max-width: 1200px;
   min-height: 600px;
-  /* Ensure the container has a minimum height */
+ 
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 6px 12px rgba(255, 154, 139, 0.5);
-  /* Custom box-shadow with the specified color */
+ 
   background: #FFFFFF;
-  /* White background for the container */
+
 }
 
-/* Image Section */
+
 .image-section {
   flex: 1;
   border-top-left-radius: 16px;
@@ -40,11 +31,10 @@
 
 .sign-in-image {
   width: 100%;
-  /* Responsive image */
   height: auto;
 }
 
-/* Form Section */
+
 .form-section {
   flex: 1;
   padding: 30px;
@@ -55,28 +45,27 @@
   background-color: #FFFFFF;
 }
 
-/* Form Title */
+
 .form-title {
   margin-bottom: 20px;
   color: #c64837;
-  /* Coral color for the heading */
+
   font-size: 36px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-  /* Soft shadow */
+
 }
 
-/* Form (Sign In/Sign Up) */
 .sign-in-form {
   width: 100%;
   max-width: 400px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  /* Space between form elements */
+
 }
-/* Authcontainer.css */
+
 .password-error-toast {
-  z-index: -1; /* Makes the toast appear behind other elements */
+  z-index: -1; 
 }
 
 .sign-in-container {
@@ -85,37 +74,36 @@
 
 .sign-in-wrapper {
   position: relative;
-  z-index: 1; /* Ensure the form and other content are above the toast */
+  z-index: 1; 
 }
 
 
-/* Form Inputs */
+
 .username-input,
 .email-input,
 .password-input,
 .input-field {
   width: 360px;
-  /* Custom width for all input fields */
+ 
   padding: 12px;
   border: 2px solid #FF9A8B;
-  /* Light coral border */
+
   border-radius: 12px;
   outline: none;
   font-size: 16px;
   box-shadow: 0 4px 8px rgba(255, 154, 139, 0.5);
-  /* Coral-colored box-shadow */
+
 }
 
 .username-input.email-input:focus,
 .password-input:focus,
 .input-field:focus {
   border-color: #FF9A8B;
-  /* Focus effect with same color */
+ 
   box-shadow: 0 4px 8px rgba(255, 154, 139, 0.75);
-  /* Darker coral box-shadow on focus */
+ 
 }
 
-/* Submit Button */
 .submit-button {
   background-color: #f5a623;
   color: white;
@@ -126,16 +114,16 @@
   transition: all 0.3s ease;
   display: block;
   margin-left: 280px;
-  /* Coral-colored box-shadow */
+
 }
 
 .submit-button:hover {
   background-color: #FF5252;
   transform: scale(1.05);
-  /* Darker coral on hover */
+ 
 }
 
-/* Toggle Link */
+
 .account-toggle-text {
   margin-top: 20px;
   text-align: center;
@@ -145,7 +133,7 @@
 
 .sign-up-link {
   color: #c64837;
-  /* Coral color for the link */
+
   text-decoration: none;
   font-weight: bold;
 }
@@ -154,31 +142,30 @@
   text-decoration: underline;
 }
 
-/* Toast Notifications */
+
 .Toastify__toast--success {
   background-color: #c64837;
-  /* Coral for success messages */
+
 }
 
 .Toastify__toast--error {
   background-color: #FF5722;
-  /* Deep orange for error messages */
+ 
 }
 
 .sign-in-container {
   padding-left: 200px;
-  /* Adjust as needed */
+
   padding-right: 200px;
-  /* Adjust as needed */
+
 }
 
-/* Optionally, for larger screens */
 @media (min-width: 768px) {
   .sign-in-container {
     padding-left: 400px;
-    /* Adjust for larger screens */
+   
     padding-right: 200px;
-    /* Adjust for larger screens */
+    
     padding-top: 100px;
   }
 }

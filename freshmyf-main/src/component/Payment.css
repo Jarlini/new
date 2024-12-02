@@ -11,20 +11,20 @@
   }
   
   .cart-summary {
-    width: 25%; /* Smaller box */
+    width: 25%; 
     background-color:   #fff5e6;
-    padding: 10px; /* Smaller padding */
-    border-radius: 8px; /* Slightly rounded corners */
-    box-shadow:orange; /* Soft box shadow */
-    margin: 0 auto; /* Centers the box */
-    text-align: center; /* Centers text inside the box */
+    padding: 10px;
+    border-radius: 8px; 
+    box-shadow:orange; 
+    margin: 0 auto; 
+    text-align: center; 
     height:65%;
   }
   
   
   .cart-summary h2 {
     color: #ff7f50;
-    font-size: 1.4rem; /* Slightly smaller heading */
+    font-size: 1.4rem;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -47,7 +47,7 @@
     font-weight: bold;
   }
   
-  /* Adjust the booking form to remain consistent */
+
   .booking-form {
     width: 25%; 
     background-color:  #fff5e6;
@@ -64,9 +64,9 @@
   }
   
   .booking-form input {
-    width: 250px; /* Custom width for all input fields */
+    width: 250px;
     padding: 12px;
-    border: 2px solid #FF9A8B; /* Light coral border */
+    border: 2px solid #FF9A8B; 
     border-radius: 12px;
     outline: none;
     font-size: 16px;
@@ -98,39 +98,39 @@
     margin-bottom: 20px;
   }
   .animated-message {
-    color: #f5a623; /* Orange color */
+    color: #f5a623; 
     font-size: 18px;
-    margin: 20px 0; /* Add some margin */
-    opacity: 0; /* Initial opacity for fade-in effect */
-    transform: translateY(20px); /* Start slightly lower */
-    animation: fadeIn 0.5s forwards; /* Animation effect */
+    margin: 20px 0; 
+    opacity: 0; 
+    transform: translateY(20px); 
+    animation: fadeIn 0.5s forwards; 
   }
   
-  /* Define keyframes for the fade-in effect */
+  
   @keyframes fadeIn {
     to {
-      opacity: 1; /* Final opacity */
-      transform: translateY(0); /* Move to the original position */
+      opacity: 1;
+      transform: translateY(0); 
     }
   }
   .paypal-container {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    margin-top: 20px; /* Space above the PayPal button */
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
   }
   
   .payment-page {
-    padding: 20px; /* Optional padding for the payment page */
+    padding: 20px; 
   }
   
   .cart-summary {
-    margin-bottom: 20px; /* Space between cart summary and booking form */
+    margin-bottom: 20px; 
   }
   
   .animated-message {
-    font-style: italic; /* Style for the animated message */
-    margin-top: 10px; /* Space above the message */
+    font-style: italic; 
+    margin-top: 10px;
   }
 body {
   font-family: 'Poppins', sans-serif;
@@ -170,7 +170,7 @@ body {
   .dialog-content {
     width: 95%;
   }
-}/* Blog Section Styles */
+}
 .blog-section {
   background: linear-gradient(135deg, #20c997, #fd7e14);
   border-radius: 0.5rem;

@@ -1,22 +1,22 @@
-/* Container for the list of trips */
+
 .trip-list {
   display: flex;
-  flex-wrap: wrap; /* Ensures that cards wrap onto the next line if there are too many for one row */
-  gap: 20px; /* Space between the trip cards */
-  justify-content: center; /* Center the cards horizontally */
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center; 
   padding: 20px;
 }
 
-/* Each trip card */
+
 .trip-item {
   background-color: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  width: 300px; /* Fixed width for each card */
+  width: 300px; 
   display: flex;
-  flex-direction: column; /* Vertical stacking of content */
-  justify-content: space-between; /* Space between content and button */
+  flex-direction: column; 
+  justify-content: space-between; 
   margin-bottom: 20px;
 }
 
@@ -34,7 +34,7 @@ h2.cute-heading {
   color: #140b0b;
 }
 
-/* Styling for trip photos */
+
 .trip-photos {
   display: flex;
   flex-wrap: wrap;

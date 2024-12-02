@@ -1,4 +1,4 @@
-/* Footer styles */
+
 .footer {
     background-color: teal;
     color: white;
@@ -20,7 +20,6 @@
     color: orange;
 }
 
-/* Social media icon styling */
 .social-links {
     display: flex;
     align-items: center;
@@ -28,7 +27,7 @@
 
 .social-links a {
     margin-right: 8px;
-    font-size: 18px; /* Reduced icon size */
+    font-size: 18px;
 }
 
 .copyright {
@@ -36,7 +35,7 @@
     color: orange;
 }
 
-/* Pulse animation for the heading */
+
 .animated-heading {
     animation: pulse 3s infinite ease-in-out;
 }

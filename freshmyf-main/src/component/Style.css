@@ -1,4 +1,4 @@
-/* Admin Dashboard Styles */
+
 .admin-dashboard {
   display: flex;
   min-height: 100vh;
@@ -6,22 +6,21 @@
   font-family: Arial, sans-serif;
 }
 
-/* Sidebar Styles */
 .sidebar {
   position: fixed;
   top: 0;
   left: 0;
   width: 250px;
-  height: 100vh; /* Full height */
+  height: 100vh;
   background: linear-gradient(135deg, #008080 60%,  #ffa726 40%);
   padding: 20px;
   color: white;
   display: flex;
   flex-direction: column;
-  overflow-y: auto; /* Allows scrolling if needed */
-  z-index: 1000; /* Ensure sidebar stays on top */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
-  border-radius: 10px; /* Rounded corners for a cute look */
+  overflow-y: auto; 
+  z-index: 1000; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px; 
 }
 
 .sidebar a {
@@ -57,7 +56,6 @@
 
 
 
-/* Content Styles */
 .content {
   flex: 1;
   padding: 40px;
@@ -70,7 +68,7 @@
   color: orangeed;
 }
 
-/* Buttons */
+
 button {
   padding: 10px 2px;
   background-color: #FFA07A;
@@ -81,7 +79,7 @@ button {
   transition: background-color 0.3s ease;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .admin-dashboard {
       flex-direction: column;
@@ -97,10 +95,10 @@ button {
       padding: 20px;
   }
 }
-/* styles.module.css */
+
 .welcomeText {
-  background-color: #e64a19; /* Dark Orange */
-  color: #ffffff; /* White text for contrast */
+  background-color: #e64a19;
+  color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   font-size: 18px;
@@ -165,7 +163,7 @@ button {
     margin-bottom: 20px;
   }
 }
-/* Teal and Orange Color Scheme */
+
 .bg-teal {
   background-color: #008080 !important;
 }
